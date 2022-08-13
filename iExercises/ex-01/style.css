@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+form {
+  background-color: rgb(204, 185, 255);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+form div {
+  margin: 1rem;
+}
+
+form div input {
+  outline: none;
+}
